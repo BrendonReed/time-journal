@@ -1,0 +1,7 @@
+= Time Journal
+
+.timejournal
+2019-06-02 12:15-06:00 to 2019-06-02 12:48-06:00 :: create db
+2019-06-02 12:55-06:00 to 2019-06-02 14:33-06:00 :: parse dates from xml and load into sqlite. One EI, 3 UFP
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "time-journal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "hoursByDay": "node parse.js && cat hoursByDay.sql | sqlite3 -column -header journal.db"
+  },
+  "dependencies": {
+    "asciidoctor-docbook.js": "^1.5.7-rc.2",
+    "asciidoctor.js": "^1.5.9",
+    "better-sqlite3": "^5.4.0",
+    "uuid": "^3.3.2",
+    "xmldom": "^0.1.27",
+    "xpath.js": "^1.1.0"
+  }
+}
